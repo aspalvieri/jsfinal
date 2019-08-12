@@ -18,10 +18,10 @@ function MainNav() {
 
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Countrys
+              Countries
             </a>
             <div className="dropdown-menu">
-              <a className="dropdown-item" href="/">Countrys</a>
+              <a className="dropdown-item" href="/">Countries</a>
               <a className="dropdown-item" href="/new">New Country</a>
             </div>
           </li>

@@ -17,6 +17,7 @@ exports.show = (req, res) => {
 
 
 exports.create = async (req, res) => {
+  //console.log(req.body);
   Country.create(req.body)
     .then(() => res.status(200).json({ success: "New country created" }))
     .catch(err => res.status(404).json(err));
